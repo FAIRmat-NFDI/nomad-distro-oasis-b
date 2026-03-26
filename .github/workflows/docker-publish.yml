@@ -3,11 +3,11 @@ name: Build and publish docker images
 
 on:
   push:
-    branches: ["main"]
+    branches: ["oasis-b"]
     # Publish semver tags as releases.
     tags: ["v*.*.*"]
   pull_request:
-    branches: ["main"]
+    branches: ["oasis-b"]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -162,7 +162,7 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
           target: ${{ matrix.target }}
-          push: true
+          push: ${{ github.event_name != 'pull_request' }} # Don't push on PRs
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
 
