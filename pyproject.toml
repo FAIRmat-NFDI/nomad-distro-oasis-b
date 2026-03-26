@@ -18,19 +18,37 @@ name = "nomad-distribution"
 description = "nomad distribution template"
 dynamic = ["version"]
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10, <3.13"
 license = { file = "LICENSE" }
-dependencies = ["nomad-lab[infrastructure]>=1.4.1"]
-
+dependencies = [
+  "nomad-lab[infrastructure]<=1.4.2rc1",
+]
 
 [project.urls]
 repository = "https://github.com/fairmat-nfdi/nomad-distro-oasis-b"
 
 [project.optional-dependencies]
 # Add your plugins to the list below.
-plugins = [
- "nomad-north-jupyter>=0.2.1"
-  ]
+plugins =[
+  "nomad-gui>=2.0.0a2.dev459",
+  # "nomad-aitoolkit @ git+https://github.com/FAIRmat-NFDI/nomad-aitoolkit.git@b203f8eb28dc4b6771a39d5c5b7ad3d9d8583ac8",
+  "nomad-plugins",
+  "perovskite-solar-cell-database @ git+https://github.com/FAIRmat-NFDI/nomad-perovskite-solar-cells-database.git@v0.1.1",
+  "pynxtools @ git+https://github.com/FAIRmat-NFDI/pynxtools.git@master",
+  "pynxtools-camels @ git+https://github.com/FAIRmat-NFDI/pynxtools-camels.git",
+  "pynxtools-apm==0.5.1",
+  "pynxtools-ellips==0.1.2",
+  "pynxtools-em==0.4.4",
+  "pynxtools-igor==0.1.5",
+  "pynxtools-mpes==0.2.7",
+  "pynxtools-raman==0.1.2",
+  "pynxtools-spm==0.2.4",
+  "pynxtools-xps==0.6.1",
+  "pynxtools-xrd==0.0.8",
+  "nomad-camels-plugin @ git+https://github.com/FAIRmat-NFDI/nomad-camels-plugin.git@main",
+  "nomad-north-jupyter",
+  "nomad-north-voila",
+] 
 jupyter = ["jupyter-events"]
 gpu-action = []
 cpu-action = []
@@ -38,9 +56,17 @@ cpu-action = []
 dev = ["nomad-lab[infrastructure, dev]"]
 
 [tool.uv]
+index-strategy = "unsafe-best-match"
+# environments = [
+#   "sys_platform == 'linux'",
+#   "sys_platform == 'darwin'",
+#   "sys_platform == 'win32'",
+# ]
 extra-index-url = [
+  "https://gitlab.mpcdf.mpg.de/api/v4/projects/8647/packages/pypi/simple",
   "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple",
 ]
+
 prerelease = "explicit"
 constraint-dependencies = ["flatdict>=4.1.0"]
 
