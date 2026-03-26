@@ -21,7 +21,7 @@ env:
   NOMAD_DOCS_REPO_REF: "main"
   # If you want to skip the tests for some plugins, add them here as a single string where
   # each plugin is separated by whitespace
-  PLUGIN_TESTS_PLUGINS_TO_SKIP: "perovskite_solar_cell_database simulationworkflowschema pynxtools_camels nomad_camels_plugin nomad_gui"
+  PLUGIN_TESTS_PLUGINS_TO_SKIP: "perovskite_solar_cell_databasex,simulationworkflowschema,pynxtools_camels,nomad_camels_plugin,nomad_gui"
 
 permissions:
   contents: write
