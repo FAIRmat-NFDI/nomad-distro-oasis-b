@@ -3416,11 +3416,6 @@ wheels = [
 ]
 
 [[package]]
-name = "nomad-aitoolkit"
-version = "0.1.1"
-source = { git = "https://github.com/FAIRmat-NFDI/nomad-aitoolkit.git?rev=b203f8eb28dc4b6771a39d5c5b7ad3d9d8583ac8#b203f8eb28dc4b6771a39d5c5b7ad3d9d8583ac8" }
-
-[[package]]
 name = "nomad-camels-plugin"
 version = "0.1.9"
 source = { git = "https://github.com/FAIRmat-NFDI/nomad-camels-plugin.git?rev=main#73b7719d328831cbc8d7759adf31ee584d32cf2a" }
@@ -3464,7 +3459,6 @@ jupyter = [
     { name = "jupyter-events" },
 ]
 plugins = [
-    { name = "nomad-aitoolkit" },
     { name = "nomad-camels-plugin" },
     { name = "nomad-gui" },
     { name = "nomad-north-jupyter" },
@@ -3487,7 +3481,6 @@ plugins = [
 [package.metadata]
 requires-dist = [
     { name = "jupyter-events", marker = "extra == 'jupyter'" },
-    { name = "nomad-aitoolkit", marker = "extra == 'plugins'", git = "https://github.com/FAIRmat-NFDI/nomad-aitoolkit.git?rev=b203f8eb28dc4b6771a39d5c5b7ad3d9d8583ac8" },
     { name = "nomad-camels-plugin", marker = "extra == 'plugins'", git = "https://github.com/FAIRmat-NFDI/nomad-camels-plugin.git?rev=main" },
     { name = "nomad-gui", marker = "extra == 'plugins'", specifier = ">=2.0.0a2.dev459" },
     { name = "nomad-lab", extras = ["dev", "infrastructure"], marker = "extra == 'dev'" },
