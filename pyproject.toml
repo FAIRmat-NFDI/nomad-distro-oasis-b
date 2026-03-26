@@ -56,6 +56,12 @@ cpu-action = []
 dev = ["nomad-lab[infrastructure, dev]"]
 
 [tool.uv]
+index-strategy = "unsafe-best-match"
+# environments = [
+#   "sys_platform == 'linux'",
+#   "sys_platform == 'darwin'",
+#   "sys_platform == 'win32'",
+# ]
 extra-index-url = [
   "https://gitlab.mpcdf.mpg.de/api/v4/projects/8647/packages/pypi/simple",
   "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple",
