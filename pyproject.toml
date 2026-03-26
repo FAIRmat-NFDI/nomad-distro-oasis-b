@@ -24,7 +24,7 @@ dependencies = ["nomad-lab[infrastructure]>=1.4.1"]
 
 
 [project.urls]
-repository = "https://github.com/FAIRmat-NFDI/nomad-distro-template"
+repository = "https://github.com/fairmat-nfdi/nomad-distro-oasis-b"
 
 [project.optional-dependencies]
 # Add your plugins to the list below.
