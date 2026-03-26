@@ -183,7 +183,7 @@ You can find more details on setting up and maintaining an Oasis in the NOMAD do
 ### For an existing Oasis
 
 If you already have an Oasis running you only need to change the image being pulled in
-your `docker-compose.yaml` with `ghcr.io/fairmat-nfdi/nomad-distro-oasis-b:main` for the services
+your `docker-compose.yaml` with `ghcr.io/fairmat-nfdi/nomad-distro-oasis-b:oasis-b` for the services
 `worker`, `app`, `north`, and `logtransfer`.
 
 If you want to use the `nomad.yaml` from this repository you also need to comment out
@@ -282,7 +282,7 @@ Note that the `base-notebook` image is more lightweight and uses less disk space
 The image is quite large and might cause a timeout the first time it is run. In order to avoid this you can pre pull the image with:
 
 ```sh
-docker pull ghcr.io/fairmat-nfdi/nomad-distro-oasis-b/jupyter:main
+docker pull ghcr.io/fairmat-nfdi/nomad-distro-oasis-b/jupyter:oasis-b
 ```
 
 If you want additional python packages to be available to all users in the jupyter hub you can add those to the jupyter table in the [`pyproject.toml`](pyproject.toml):
