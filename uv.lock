@@ -3037,12 +3037,12 @@ requires-dist = [
     { name = "nomad-gui", marker = "extra == 'plugins'", specifier = ">=2.0.0a2.dev459" },
     { name = "nomad-lab", extras = ["dev", "infrastructure"], marker = "extra == 'dev'" },
     { name = "nomad-lab", extras = ["infrastructure"], specifier = "==1.4.2.dev169+gd1f6cc166" },
-    { name = "nomad-north-apmtools", marker = "extra == 'plugins'" },
-    { name = "nomad-north-fiji", marker = "extra == 'plugins'" },
-    { name = "nomad-north-jupyter", marker = "extra == 'plugins'" },
-    { name = "nomad-north-nionswift", marker = "extra == 'plugins'" },
-    { name = "nomad-north-vesta", marker = "extra == 'plugins'" },
-    { name = "nomad-north-voila", marker = "extra == 'plugins'" },
+    { name = "nomad-north-apmtools", marker = "extra == 'plugins'", specifier = ">=0.1.1" },
+    { name = "nomad-north-fiji", marker = "extra == 'plugins'", specifier = ">=0.1.1" },
+    { name = "nomad-north-jupyter", marker = "extra == 'plugins'", specifier = ">=0.2.5" },
+    { name = "nomad-north-nionswift", marker = "extra == 'plugins'", specifier = ">=0.1.1" },
+    { name = "nomad-north-vesta", marker = "extra == 'plugins'", specifier = ">=0.1.1" },
+    { name = "nomad-north-voila", marker = "extra == 'plugins'", specifier = ">=0.1.4" },
     { name = "nomad-plugins", marker = "extra == 'plugins'" },
     { name = "perovskite-solar-cell-database", marker = "extra == 'plugins'", git = "https://github.com/FAIRmat-NFDI/nomad-perovskite-solar-cells-database.git?rev=v0.1.1" },
     { name = "pynxtools", marker = "extra == 'plugins'", git = "https://github.com/FAIRmat-NFDI/pynxtools.git?rev=master" },
@@ -3170,62 +3170,62 @@ infrastructure = [
 
 [[package]]
 name = "nomad-north-apmtools"
-version = "0.1.0"
+version = "0.1.1"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/8647/packages/pypi/simple" }
 dependencies = [
     { name = "nomad-lab" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/71/76/da7dcf5c490517e52b116cb76a034a1610b7ebd88a754eca0b81b29a9023/nomad_north_apmtools-0.1.0.tar.gz", hash = "sha256:18a680999eb9277b68fd20f63a914463c26c8e9ac67c4c1c81ec6df58fe64330", size = 165284, upload-time = "2026-03-27T08:25:59.236Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/aa/55/7f7595a8e123e8e427bdde69c019d0008cb236908f6426f3104fd04d75a9/nomad_north_apmtools-0.1.1.tar.gz", hash = "sha256:dbb877d562b8c84f8c4ff08652dc60d2bd113d1f0c60052dc40dfe86ce4697ce", size = 165293, upload-time = "2026-03-27T13:30:33.327Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/5d/b4/681222c2e61e6ef5ab1a14f5e7d844bea4c0ad8fd3bd24389118c4d17ef3/nomad_north_apmtools-0.1.0-py3-none-any.whl", hash = "sha256:ddbd19442ebb92e4d10580579d43ed17fa8371b4b76c8d7448102b9f84e348b0", size = 63776, upload-time = "2026-03-27T08:25:57.691Z" },
+    { url = "https://files.pythonhosted.org/packages/07/e4/b169f64eeefdaf055f29f099e891f49066dd05de4c3655951b960716bc3b/nomad_north_apmtools-0.1.1-py3-none-any.whl", hash = "sha256:9d364836e710e10b5296c344babb6b5221f1442bcdfbab161fd995ff1161ad8b", size = 63755, upload-time = "2026-03-27T13:30:32.049Z" },
 ]
 
 [[package]]
 name = "nomad-north-fiji"
-version = "0.1.0"
+version = "0.1.1"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/8647/packages/pypi/simple" }
 dependencies = [
     { name = "nomad-lab" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/74/f8/162e41892a5fb6b1b2f17e90908d8d0ebc519875b46a963932dde512bd3c/nomad_north_fiji-0.1.0.tar.gz", hash = "sha256:5ca314c8dda32ba45a47c8c4956813a4c244dcaf8d18a8548ff5c4282ad27f8a", size = 150558, upload-time = "2026-03-27T08:28:38.161Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/04/39/8ac252640656891e0c5c3cf2e40f51b1c42c64da3ce833e78011148d6b8f/nomad_north_fiji-0.1.1.tar.gz", hash = "sha256:6369bb774a240ff52bb37ec4c789c5fd63b1f1749d3ca59637c5de0a387bcd3d", size = 150586, upload-time = "2026-03-27T13:30:12.542Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d5/6f/5097231cbfe360e5721996d5fa59bec7f2f51fb55c3fe8eafc5fbc582abc/nomad_north_fiji-0.1.0-py3-none-any.whl", hash = "sha256:8468b39f019b4d0dea497411c7e5483de1f1bfb7b8195d0d0ad52fcda6a9e2a0", size = 49562, upload-time = "2026-03-27T08:28:36.922Z" },
+    { url = "https://files.pythonhosted.org/packages/17/ca/2b9770bde60aaa1bbdbfe7898ebb360393692e8e8397baba43873870f2af/nomad_north_fiji-0.1.1-py3-none-any.whl", hash = "sha256:a309a4e4b7609fdabd157c2c2d1be97c1df7554e8c82a9c18fab363a0eda9519", size = 49543, upload-time = "2026-03-27T13:30:11.06Z" },
 ]
 
 [[package]]
 name = "nomad-north-jupyter"
-version = "0.2.4"
+version = "0.2.5"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/8647/packages/pypi/simple" }
 dependencies = [
     { name = "nomad-lab" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/c2/82/c527b533a1bcaa81bb63a0367647201bf83cf8c4a4d9e6db8da12dad117e/nomad_north_jupyter-0.2.4.tar.gz", hash = "sha256:ba73a16f35776b169534daf84b9c33de13900e6135c2573b75604392bd4dcfb0", size = 110044, upload-time = "2026-03-16T15:44:21.651Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/90/0b/e4360dc765663d2bbb9f72644aa53658753069b8d66dc0519bc1c6f7ad79/nomad_north_jupyter-0.2.5.tar.gz", hash = "sha256:a95dfdc36aee30ef3186a6db65ced8727f45e94fff81e341888392d37b7d7da9", size = 114680, upload-time = "2026-03-27T09:03:11.811Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/e5/28/f35fd12b6cfd582b927f74f45e345727448a920d7c262fd7e42678e90883/nomad_north_jupyter-0.2.4-py3-none-any.whl", hash = "sha256:21c670ee1acb53a49832f1bd34f28b0029f596a7fc74d686b767804a80e2a390", size = 10511, upload-time = "2026-03-16T15:44:20.601Z" },
+    { url = "https://files.pythonhosted.org/packages/75/b8/149924231b5384b2d13038178422b3b1843c0d1eebab61c72867a2dba5ff/nomad_north_jupyter-0.2.5-py3-none-any.whl", hash = "sha256:afda15a820bbf90d02e2d97433538aa244c91bade60c4a99f9dd17264a31e89e", size = 14531, upload-time = "2026-03-27T09:03:10.363Z" },
 ]
 
 [[package]]
 name = "nomad-north-nionswift"
-version = "0.1.0"
+version = "0.1.1"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/8647/packages/pypi/simple" }
 dependencies = [
     { name = "nomad-lab" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/53/c2/ce68123a6b97da73b479975a23dd986a985c020b2b7cb8c4b1bcb3b3eee5/nomad_north_nionswift-0.1.0.tar.gz", hash = "sha256:714f407ed8f35c05b11cbd9fb5e87fc4431962ca8766d6f12cf5202ba7efcc84", size = 138534, upload-time = "2026-03-27T08:29:11.021Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/e7/c7/ce3795096d7f56142f7a91f1ac04ac779aea3a06d1394a6e12c777847ec2/nomad_north_nionswift-0.1.1.tar.gz", hash = "sha256:8f49e0ee303f96564cda28f9264e1fc01613cbaf992682ae91b9b3248ab878e8", size = 138511, upload-time = "2026-03-27T13:29:45.754Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/5b/29/6c8ea28982ce6229d7423a32ed5161a5e0586dfc6a6ac311fc89c486ca91/nomad_north_nionswift-0.1.0-py3-none-any.whl", hash = "sha256:dfa2cefe84196b1b1a663e2e39b9b25b4fdfd130b5217503c081b2405c56992b", size = 37096, upload-time = "2026-03-27T08:29:09.553Z" },
+    { url = "https://files.pythonhosted.org/packages/f5/69/42d61718d5f6519b2ae4b9a27cade0477e4d7fafb3d7575af66f0959737d/nomad_north_nionswift-0.1.1-py3-none-any.whl", hash = "sha256:a136714910fe30be0f4230ab03d41c6e19e9b7725927d31bb7e44ff3ded31256", size = 37077, upload-time = "2026-03-27T13:29:44.664Z" },
 ]
 
 [[package]]
 name = "nomad-north-vesta"
-version = "0.1.0"
+version = "0.1.1"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/8647/packages/pypi/simple" }
 dependencies = [
     { name = "nomad-lab" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/b8/21/be27d09f64b4188cfb2fbfe5ec3ed9603cfb1ac0c7c51043fad80f61ca1d/nomad_north_vesta-0.1.0.tar.gz", hash = "sha256:cc20748e9f6a608216c796873a659973d5874cb620b71c08febc8bfdba5cfd2c", size = 164722, upload-time = "2026-03-27T08:29:25.944Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/4c/f7/e26a5b9df42b4e5e6cb51a02e4393fce5c0550c0891337ed9b31bb07857f/nomad_north_vesta-0.1.1.tar.gz", hash = "sha256:a6354df89c6cf662e2041664227d65e068bb140ee927d000be41a3095d3ace9a", size = 164720, upload-time = "2026-03-27T13:28:13.825Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c3/c3/9a0f4d9f4c9dd11e9b680fc369a5c22e81c06f3152daa8d4b14aaf04a511/nomad_north_vesta-0.1.0-py3-none-any.whl", hash = "sha256:e8d6cf25ce11f812f9d16e5bad46e5eb113368df3eb889cbf2f79e3ae9785907", size = 63101, upload-time = "2026-03-27T08:29:24.609Z" },
+    { url = "https://files.pythonhosted.org/packages/23/41/391e9dbb1ca614751a22ad524d5915ec9dfff2855b87e27739adbccbca5e/nomad_north_vesta-0.1.1-py3-none-any.whl", hash = "sha256:6092e18e09b874dd74044b0ff617245e144bf0cdb30595733834cebde0d5734e", size = 63076, upload-time = "2026-03-27T13:28:12.576Z" },
 ]
 
 [[package]]
@@ -4351,8 +4351,8 @@ wheels = [
 
 [[package]]
 name = "pynxtools"
-version = "0.13.1.post1.dev4+ga77d0a0dd"
-source = { git = "https://github.com/FAIRmat-NFDI/pynxtools.git?rev=master#a77d0a0dd0d8a99c8ce8aabc0a316943a434e2ca" }
+version = "0.13.2"
+source = { git = "https://github.com/FAIRmat-NFDI/pynxtools.git?rev=master#10cdf7a95b6101e628955cfb99cd26ebf8768dbe" }
 dependencies = [
     { name = "anytree" },
     { name = "ase" },

@@ -46,13 +46,14 @@ plugins =[
   "pynxtools-xps==0.6.1",
   "pynxtools-xrd==0.0.8",
   "nomad-camels-plugin @ git+https://github.com/FAIRmat-NFDI/nomad-camels-plugin.git@main",
-  "nomad-north-jupyter",
-  "nomad-north-voila",
-  "nomad-north-apmtools",
-  "nomad-north-fiji",
-  "nomad-north-nionswift",
-  "nomad-north-vesta"
+  "nomad-north-jupyter>=0.2.5",
+  "nomad-north-voila>=0.1.4",
+  "nomad-north-apmtools>=0.1.1",
+  "nomad-north-fiji>=0.1.1",
+  "nomad-north-nionswift>=0.1.1",
+  "nomad-north-vesta>=0.1.1"
 ] 
+
 jupyter = ["jupyter-events"]
 gpu-action = []
 cpu-action = []
