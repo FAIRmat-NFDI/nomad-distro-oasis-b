@@ -21,7 +21,7 @@ readme = "README.md"
 requires-python = ">=3.10, <3.13"
 license = { file = "LICENSE" }
 dependencies = [
-  "nomad-lab[infrastructure]<=1.4.2rc1",
+  "nomad-lab[infrastructure]==1.4.2.dev169+gd1f6cc166",
 ]
 
 [project.urls]
@@ -48,6 +48,10 @@ plugins =[
   "nomad-camels-plugin @ git+https://github.com/FAIRmat-NFDI/nomad-camels-plugin.git@main",
   "nomad-north-jupyter",
   "nomad-north-voila",
+  "nomad-north-apmtools",
+  "nomad-north-fiji",
+  "nomad-north-nionswift",
+  "nomad-north-vesta"
 ] 
 jupyter = ["jupyter-events"]
 gpu-action = []
