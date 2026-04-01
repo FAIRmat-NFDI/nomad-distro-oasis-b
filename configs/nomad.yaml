@@ -11,6 +11,13 @@ meta:
   deployment_url: "https://my-oasis.org/api"
   maintainer_email: "me@my-oasis.org"
 
+plugins:
+  entry_points:
+    options:
+      nomad_north_jupyter.north_tools:jupyter:
+        north_tool:
+          image: ghcr.io/fairmat-nfdi/nomad-north-jupyter:latest
+
 logstash:
   enabled: false
 
