@@ -6,13 +6,6 @@ oasis:
   is_oasis: true
   uses_central_user_management: true
 
-plugins:
-  entry_points:
-    options:
-      nomad_north_jupyter.north_tools:jupyter:
-        north_tool:
-          image: ghcr.io/fairmat-nfdi/nomad-north-jupyter:latest
-
 meta:
   deployment: "oasis"
   deployment_url: "https://my-oasis.org/api"
