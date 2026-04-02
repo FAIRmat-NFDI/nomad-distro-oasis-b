@@ -42,7 +42,7 @@ plugins =[
   "pynxtools-igor==0.1.5",
   "pynxtools-mpes==0.2.7",
   "pynxtools-raman==0.1.2",
-  "pynxtools-spm==0.2.4",
+  "pynxtools-spm==0.2.5",
   "pynxtools-xps==0.6.1",
   "pynxtools-xrd==0.0.8",
   "nomad-camels-plugin @ git+https://github.com/FAIRmat-NFDI/nomad-camels-plugin.git@main",

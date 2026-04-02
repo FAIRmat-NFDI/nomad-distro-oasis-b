@@ -3117,7 +3117,7 @@ requires-dist = [
     { name = "pynxtools-igor", marker = "extra == 'plugins'", specifier = "==0.1.5" },
     { name = "pynxtools-mpes", marker = "extra == 'plugins'", specifier = "==0.2.7" },
     { name = "pynxtools-raman", marker = "extra == 'plugins'", specifier = "==0.1.2" },
-    { name = "pynxtools-spm", marker = "extra == 'plugins'", specifier = "==0.2.4" },
+    { name = "pynxtools-spm", marker = "extra == 'plugins'", specifier = "==0.2.5" },
     { name = "pynxtools-xps", marker = "extra == 'plugins'", specifier = "==0.6.1" },
     { name = "pynxtools-xrd", marker = "extra == 'plugins'", specifier = "==0.0.8" },
 ]
@@ -4617,7 +4617,7 @@ wheels = [
 
 [[package]]
 name = "pynxtools-spm"
-version = "0.2.4"
+version = "0.2.5"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/8647/packages/pypi/simple" }
 dependencies = [
     { name = "findiff" },
@@ -4629,9 +4629,9 @@ dependencies = [
     { name = "spym" },
     { name = "tzlocal" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/68/10/e395f6eca7c90d60f748a7f0feb95ce205a72adf0efc394f7e56758761e9/pynxtools_spm-0.2.4.tar.gz", hash = "sha256:a41e679c4b57ce8f31e8e809b9f94b8374f2a18db9a9b2d292b8a66639d1d45d", size = 1630207, upload-time = "2026-03-24T13:02:46.416Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/28/9b/844e6eb8025f5b8311d0781a88028718216b66c6b3fcba515336434facff/pynxtools_spm-0.2.5.tar.gz", hash = "sha256:5bae4e72a58175d23aed7a58124c6eb67915355761a417f6818bd368ba979e9e", size = 1630230, upload-time = "2026-03-30T08:51:36.032Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ae/b3/2998404610ceabd0a9fddbcfc347977b95479c29b4daecd3a6567c722e32/pynxtools_spm-0.2.4-py3-none-any.whl", hash = "sha256:0525a8e0b5d158ae8a2d728f9b1df2767fdc892f52985639ff616a6f67a456e7", size = 1657775, upload-time = "2026-03-24T13:02:44.279Z" },
+    { url = "https://files.pythonhosted.org/packages/6a/40/32ab7d3e7dae924ee29833afb019c67d1f8a62eda58622fe3ba9d00618ec/pynxtools_spm-0.2.5-py3-none-any.whl", hash = "sha256:1614f15b579abb47e5404236b3c445b339c5966c07628454c2ea5eb9e3d9aa27", size = 1657777, upload-time = "2026-03-30T08:51:34.336Z" },
 ]
 
 [[package]]
