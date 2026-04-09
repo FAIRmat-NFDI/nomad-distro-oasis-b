@@ -3247,14 +3247,14 @@ wheels = [
 
 [[package]]
 name = "nomad-north-fiji"
-version = "0.1.1"
+version = "0.1.2"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/8647/packages/pypi/simple" }
 dependencies = [
     { name = "nomad-lab" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/04/39/8ac252640656891e0c5c3cf2e40f51b1c42c64da3ce833e78011148d6b8f/nomad_north_fiji-0.1.1.tar.gz", hash = "sha256:6369bb774a240ff52bb37ec4c789c5fd63b1f1749d3ca59637c5de0a387bcd3d", size = 150586, upload-time = "2026-03-27T13:30:12.542Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/07/bd/80c2fd20329e85d1915349aa9a934edc41cde2b12446da48c529e53489eb/nomad_north_fiji-0.1.2.tar.gz", hash = "sha256:03268a4ec957a63015943eda4facff53ef09381eb5264f1321cfc185577e4dcd", size = 150946, upload-time = "2026-04-08T16:39:32.928Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/17/ca/2b9770bde60aaa1bbdbfe7898ebb360393692e8e8397baba43873870f2af/nomad_north_fiji-0.1.1-py3-none-any.whl", hash = "sha256:a309a4e4b7609fdabd157c2c2d1be97c1df7554e8c82a9c18fab363a0eda9519", size = 49543, upload-time = "2026-03-27T13:30:11.06Z" },
+    { url = "https://files.pythonhosted.org/packages/05/85/d6889374933061d19aea879039bf4bc0669934dc8eca4cac005361cb6bf9/nomad_north_fiji-0.1.2-py3-none-any.whl", hash = "sha256:9326ddd475468ac4e185aac59e7a4e15119ca87968770388666a9486477516c6", size = 49544, upload-time = "2026-04-08T16:39:31.69Z" },
 ]
 
 [[package]]
