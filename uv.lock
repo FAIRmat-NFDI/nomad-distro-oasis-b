@@ -3283,14 +3283,14 @@ wheels = [
 
 [[package]]
 name = "nomad-north-vesta"
-version = "0.1.1"
+version = "0.1.2"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/8647/packages/pypi/simple" }
 dependencies = [
     { name = "nomad-lab" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/4c/f7/e26a5b9df42b4e5e6cb51a02e4393fce5c0550c0891337ed9b31bb07857f/nomad_north_vesta-0.1.1.tar.gz", hash = "sha256:a6354df89c6cf662e2041664227d65e068bb140ee927d000be41a3095d3ace9a", size = 164720, upload-time = "2026-03-27T13:28:13.825Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/a9/62/0a7b3a885b7b16eb591948ca3feb20bcf93d918713c8afa2d09c4e2a9d94/nomad_north_vesta-0.1.2.tar.gz", hash = "sha256:ac62771ab0eef003d1796e1f3d6c631fafed54c5c3e177533cd1be24e64a1990", size = 164949, upload-time = "2026-04-08T17:08:43.322Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/23/41/391e9dbb1ca614751a22ad524d5915ec9dfff2855b87e27739adbccbca5e/nomad_north_vesta-0.1.1-py3-none-any.whl", hash = "sha256:6092e18e09b874dd74044b0ff617245e144bf0cdb30595733834cebde0d5734e", size = 63076, upload-time = "2026-03-27T13:28:12.576Z" },
+    { url = "https://files.pythonhosted.org/packages/1d/b9/38449ccc63241c9bb2d924914c00c092e2989f6724758fabe5a349bc097e/nomad_north_vesta-0.1.2-py3-none-any.whl", hash = "sha256:a0a38f8b1947135e28cad686580d1af9b6daeea88d08a226622a26173c117a51", size = 63081, upload-time = "2026-04-08T17:08:41.638Z" },
 ]
 
 [[package]]
