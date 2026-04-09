@@ -3113,7 +3113,7 @@ requires-dist = [
     { name = "pynxtools-apm", marker = "extra == 'plugins'", specifier = "==0.5.1" },
     { name = "pynxtools-camels", marker = "extra == 'plugins'", git = "https://github.com/FAIRmat-NFDI/pynxtools-camels.git" },
     { name = "pynxtools-ellips", marker = "extra == 'plugins'", specifier = "==0.1.2" },
-    { name = "pynxtools-em", marker = "extra == 'plugins'", specifier = "==0.4.4" },
+    { name = "pynxtools-em", marker = "extra == 'plugins'", specifier = "==0.4.5" },
     { name = "pynxtools-igor", marker = "extra == 'plugins'", specifier = "==0.1.5" },
     { name = "pynxtools-mpes", marker = "extra == 'plugins'", specifier = "==0.2.7" },
     { name = "pynxtools-raman", marker = "extra == 'plugins'", specifier = "==0.1.2" },
@@ -4555,7 +4555,7 @@ wheels = [
 
 [[package]]
 name = "pynxtools-em"
-version = "0.4.4"
+version = "0.4.5"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/8647/packages/pypi/simple" }
 dependencies = [
     { name = "flatdict" },
@@ -4571,9 +4571,9 @@ dependencies = [
     { name = "xmltodict" },
     { name = "xraydb" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/af/90/bc545f50e55a2f2fbecf483bfa302e6ddfab122508e70c78c358c96d618e/pynxtools_em-0.4.4.tar.gz", hash = "sha256:813875ba0de81abfad212e0400f64588a9b4a246fcc81a3291b6b9afd0a5354d", size = 143778, upload-time = "2026-03-24T13:18:18.444Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/1a/02/d35c8d5b83245aa5fcafa39db0b0bcebcfa8ea3bc20f2d1c3b2840ed2b62/pynxtools_em-0.4.5.tar.gz", hash = "sha256:801005a7ec64bb72c4ba1e58ecc6b9245ad52eced0dadc8c273ec03a4bdd1e2b", size = 143772, upload-time = "2026-04-08T14:05:28.692Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/76/43/a0c639fa42e10825d5c56924cc71e50b6635c39e733b7e60b6f162d60728/pynxtools_em-0.4.4-py3-none-any.whl", hash = "sha256:8930963039f782e07491a00fbcf1ee6c4c1ac1f2140c3f083b943e8173fb3d93", size = 235964, upload-time = "2026-03-24T13:18:16.837Z" },
+    { url = "https://files.pythonhosted.org/packages/34/e6/eb9f219a4cd5424493510a7203528748ae140c2a7415bfdf4ddb34da60bc/pynxtools_em-0.4.5-py3-none-any.whl", hash = "sha256:84c195fb7f4d274b9178eae60cb340f5ddfc3822a1182735ff5c05d8f9a50349", size = 235963, upload-time = "2026-04-08T14:05:27.227Z" },
 ]
 
 [[package]]

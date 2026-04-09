@@ -38,7 +38,7 @@ plugins =[
   "pynxtools-camels @ git+https://github.com/FAIRmat-NFDI/pynxtools-camels.git",
   "pynxtools-apm==0.5.1",
   "pynxtools-ellips==0.1.2",
-  "pynxtools-em==0.4.4",
+  "pynxtools-em==0.4.5",
   "pynxtools-igor==0.1.5",
   "pynxtools-mpes==0.2.7",
   "pynxtools-raman==0.1.2",
