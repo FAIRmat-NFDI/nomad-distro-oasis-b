@@ -3235,14 +3235,14 @@ infrastructure = [
 
 [[package]]
 name = "nomad-north-apmtools"
-version = "0.1.1"
+version = "0.1.2"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/8647/packages/pypi/simple" }
 dependencies = [
     { name = "nomad-lab" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/aa/55/7f7595a8e123e8e427bdde69c019d0008cb236908f6426f3104fd04d75a9/nomad_north_apmtools-0.1.1.tar.gz", hash = "sha256:dbb877d562b8c84f8c4ff08652dc60d2bd113d1f0c60052dc40dfe86ce4697ce", size = 165293, upload-time = "2026-03-27T13:30:33.327Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/37/34/01becbffb8d8ff8027950452d1206cfeface95575a5da4bdb572e5dac326/nomad_north_apmtools-0.1.2.tar.gz", hash = "sha256:3642a107e6b838256b89f06b2f620c43f4cfb628b7ae74599da7cc03c8a3127b", size = 165577, upload-time = "2026-04-08T16:48:38.755Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/07/e4/b169f64eeefdaf055f29f099e891f49066dd05de4c3655951b960716bc3b/nomad_north_apmtools-0.1.1-py3-none-any.whl", hash = "sha256:9d364836e710e10b5296c344babb6b5221f1442bcdfbab161fd995ff1161ad8b", size = 63755, upload-time = "2026-03-27T13:30:32.049Z" },
+    { url = "https://files.pythonhosted.org/packages/a9/57/096a6e7c810bf596f0f0f3f243068be6ff18bc53695cf9cbb7fec8d7b37c/nomad_north_apmtools-0.1.2-py3-none-any.whl", hash = "sha256:e2b1159006dd3a56702a2688a2f609f3ff6f17ec94dfd13969c16c8348584346", size = 63759, upload-time = "2026-04-08T16:48:37.303Z" },
 ]
 
 [[package]]
