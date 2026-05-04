@@ -3106,7 +3106,6 @@ plugins = [
     { name = "nomad-north-nionswift" },
     { name = "nomad-north-vesta" },
     { name = "nomad-north-voila" },
-    { name = "nomad-plugins" },
     { name = "perovskite-solar-cell-database" },
     { name = "pynxtools" },
     { name = "pynxtools-apm" },
@@ -3127,14 +3126,13 @@ requires-dist = [
     { name = "nomad-camels-plugin", marker = "extra == 'plugins'", git = "https://github.com/FAIRmat-NFDI/nomad-camels-plugin.git?rev=main" },
     { name = "nomad-gui", marker = "extra == 'plugins'", specifier = ">=2.0.0a2.dev459" },
     { name = "nomad-lab", extras = ["dev", "infrastructure"], marker = "extra == 'dev'" },
-    { name = "nomad-lab", extras = ["infrastructure"], specifier = "==1.4.2rc1" },
-    { name = "nomad-north-apmtools", marker = "extra == 'plugins'", specifier = ">=0.1.1" },
-    { name = "nomad-north-fiji", marker = "extra == 'plugins'", specifier = ">=0.1.1" },
+    { name = "nomad-lab", extras = ["infrastructure"], specifier = "==1.4.2" },
+    { name = "nomad-north-apmtools", marker = "extra == 'plugins'", specifier = ">=0.1.2" },
+    { name = "nomad-north-fiji", marker = "extra == 'plugins'", specifier = ">=0.1.2" },
     { name = "nomad-north-jupyter", marker = "extra == 'plugins'", specifier = ">=0.2.5" },
-    { name = "nomad-north-nionswift", marker = "extra == 'plugins'", specifier = ">=0.1.1" },
-    { name = "nomad-north-vesta", marker = "extra == 'plugins'", specifier = ">=0.1.1" },
+    { name = "nomad-north-nionswift", marker = "extra == 'plugins'", specifier = ">=0.1.2" },
+    { name = "nomad-north-vesta", marker = "extra == 'plugins'", specifier = ">=0.1.2" },
     { name = "nomad-north-voila", marker = "extra == 'plugins'", specifier = ">=0.1.14" },
-    { name = "nomad-plugins", marker = "extra == 'plugins'" },
     { name = "perovskite-solar-cell-database", marker = "extra == 'plugins'", git = "https://github.com/FAIRmat-NFDI/nomad-perovskite-solar-cells-database.git?rev=v0.1.1" },
     { name = "pynxtools", marker = "extra == 'plugins'", git = "https://github.com/FAIRmat-NFDI/pynxtools.git?rev=master" },
     { name = "pynxtools-apm", marker = "extra == 'plugins'", specifier = "==0.5.1" },
@@ -3170,8 +3168,8 @@ wheels = [
 
 [[package]]
 name = "nomad-lab"
-version = "1.4.2rc1"
-source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
+version = "1.4.2"
+source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/8647/packages/pypi/simple" }
 dependencies = [
     { name = "ase" },
     { name = "bitarray" },
@@ -3217,9 +3215,9 @@ dependencies = [
     { name = "xarray", version = "2025.6.1", source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/8647/packages/pypi/simple" }, marker = "python_full_version < '3.11'" },
     { name = "xarray", version = "2026.4.0", source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/8647/packages/pypi/simple" }, marker = "python_full_version >= '3.11'" },
 ]
-sdist = { url = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/files/18ffebbe8091f1547fff57283ca8df75070b0fd999bc1049d67277f63b9c1005/nomad_lab-1.4.2rc1.tar.gz", hash = "sha256:18ffebbe8091f1547fff57283ca8df75070b0fd999bc1049d67277f63b9c1005" }
+sdist = { url = "https://files.pythonhosted.org/packages/c6/65/bbe73c75152dd52d74dc972baecae363f923528da3b1c4538983b30bdc5a/nomad_lab-1.4.2.tar.gz", hash = "sha256:f3effff6f14c2fde0aef7c513ac6572aee8d07b3f043c58647148429ea029808", size = 17671828, upload-time = "2026-04-17T12:35:05.531Z" }
 wheels = [
-    { url = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/files/da24b891dd06a16bf9e24e7ef627e376c98f78a6a6ea507dbf7cc69292589834/nomad_lab-1.4.2rc1-py3-none-any.whl", hash = "sha256:da24b891dd06a16bf9e24e7ef627e376c98f78a6a6ea507dbf7cc69292589834" },
+    { url = "https://files.pythonhosted.org/packages/c5/53/a9dc65481e8dd531b4ec3d6ce29a356291495decbe2233ecdec92f4599fe/nomad_lab-1.4.2-py3-none-any.whl", hash = "sha256:e167de33df01df94ecdb6e5f576f8791900581b27bfa8693010478a7cf2ccc0d", size = 18107423, upload-time = "2026-04-17T12:35:37.426Z" },
 ]
 
 [package.optional-dependencies]
@@ -3335,22 +3333,6 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/87/9d/d4dc52cf5af7582be78cd66720fe40095b4d99960dc15c1e4a37e4df8c24/nomad_north_voila-0.1.14.tar.gz", hash = "sha256:fc3394e648582ed80a3182529ee09acae54643eeafa80a5e10c39d83dab153d1", size = 117848, upload-time = "2026-03-27T13:36:29.263Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/83/38/7027f30ed68956da22cc55b8e436ad6027ee9236294ada756480df2d4d6a/nomad_north_voila-0.1.14-py3-none-any.whl", hash = "sha256:8449603c4f1d151a9a035841ec9d253726598f07dd5fd3cf43167f743aced99e", size = 18280, upload-time = "2026-03-27T13:36:27.597Z" },
-]
-
-[[package]]
-name = "nomad-plugins"
-version = "0.1.3"
-source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/8647/packages/pypi/simple" }
-dependencies = [
-    { name = "click" },
-    { name = "nomad-lab" },
-    { name = "python-magic-bin", marker = "sys_platform == 'win32'" },
-    { name = "requests" },
-    { name = "toml" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/59/e3/d7cedfb00fdf28ad0949a441002109aba2c4beee37cd1b11e54edba05209/nomad_plugins-0.1.3.tar.gz", hash = "sha256:6546f30000b74da41f286f5deb14e110833d9a3c6f4c3b68453642b6cfa4db2d", size = 121023, upload-time = "2024-12-19T17:16:26.837Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/15/ff/7f5ed64dad1f57fea9d6caab71097bd8b04893ba4db95c428868fefa2094/nomad_plugins-0.1.3-py3-none-any.whl", hash = "sha256:052ae392be3c68eef52ca322265a92e900bd511e327f4f7eab48f6c658840cca", size = 20087, upload-time = "2024-12-19T17:16:24.245Z" },
 ]
 
 [[package]]
@@ -5885,15 +5867,6 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/6c/3e/695c7ab56be57814e369c1f38bc3f64b9dea0a83e867d00c0c9d613a9929/tifffile-2026.5.2.tar.gz", hash = "sha256:21b10227ede8493814a34676774797f721f487e36cb0530e7c3bd882caa87f5a", size = 429140, upload-time = "2026-05-02T20:19:31.497Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/b4/af/ce4df3ca29122d219c45d3e86e5ff9a9df03b8cf31afd76817b662c803a3/tifffile-2026.5.2-py3-none-any.whl", hash = "sha256:5129b53b826e768a5b1af26b765eeea75c2d0a227d2d12849617e0737588e105", size = 266420, upload-time = "2026-05-02T20:19:29.814Z" },
-]
-
-[[package]]
-name = "toml"
-version = "0.10.2"
-source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/8647/packages/pypi/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/be/ba/1f744cdc819428fc6b5084ec34d9b30660f6f9daaf70eead706e3203ec3c/toml-0.10.2.tar.gz", hash = "sha256:b3bda1d108d5dd99f4a20d24d9c348e91c4db7ab1b749200bded2f839ccbe68f", size = 22253, upload-time = "2020-11-01T01:40:22.204Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/44/6f/7120676b6d73228c96e17f1f794d8ab046fc910d781c8d151120c3f1569e/toml-0.10.2-py2.py3-none-any.whl", hash = "sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b", size = 16588, upload-time = "2020-11-01T01:40:20.672Z" },
 ]
 
 [[package]]

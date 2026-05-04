@@ -21,7 +21,7 @@ readme = "README.md"
 requires-python = ">=3.10, <3.13"
 license = { file = "LICENSE" }
 dependencies = [
-  "nomad-lab[infrastructure]==1.4.2rc1",
+  "nomad-lab[infrastructure]==1.4.2",
 ]
 
 [project.urls]
@@ -32,7 +32,7 @@ repository = "https://github.com/fairmat-nfdi/nomad-distro-oasis-b"
 plugins =[
   "nomad-gui>=2.0.0a2.dev459",
   # "nomad-aitoolkit @ git+https://github.com/FAIRmat-NFDI/nomad-aitoolkit.git@b203f8eb28dc4b6771a39d5c5b7ad3d9d8583ac8",
-  "nomad-plugins",
+  # "nomad-plugins",
   "perovskite-solar-cell-database @ git+https://github.com/FAIRmat-NFDI/nomad-perovskite-solar-cells-database.git@v0.1.1",
   "pynxtools @ git+https://github.com/FAIRmat-NFDI/pynxtools.git@master",
   "pynxtools-camels @ git+https://github.com/FAIRmat-NFDI/pynxtools-camels.git",
@@ -48,10 +48,10 @@ plugins =[
   "nomad-camels-plugin @ git+https://github.com/FAIRmat-NFDI/nomad-camels-plugin.git@main",
   "nomad-north-jupyter>=0.2.5",
   "nomad-north-voila>=0.1.14",
-  "nomad-north-apmtools>=0.1.1",
-  "nomad-north-fiji>=0.1.1",
-  "nomad-north-nionswift>=0.1.1",
-  "nomad-north-vesta>=0.1.1"
+  "nomad-north-apmtools>=0.1.2",
+  "nomad-north-fiji>=0.1.2",
+  "nomad-north-nionswift>=0.1.2",
+  "nomad-north-vesta>=0.1.2"
 ] 
 
 jupyter = ["jupyter-events"]
