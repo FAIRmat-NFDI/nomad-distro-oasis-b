@@ -36,22 +36,23 @@ plugins =[
   "perovskite-solar-cell-database @ git+https://github.com/FAIRmat-NFDI/nomad-perovskite-solar-cells-database.git@v0.1.1",
   "pynxtools @ git+https://github.com/FAIRmat-NFDI/pynxtools.git@master",
   "pynxtools-camels @ git+https://github.com/FAIRmat-NFDI/pynxtools-camels.git",
-  "pynxtools-apm==0.5.1",
-  "pynxtools-ellips==0.1.2",
+  "pynxtools-apm==0.5.2",
+  "pynxtools-ellips==0.1.1",
   "pynxtools-em==0.4.5",
-  "pynxtools-igor==0.1.6",
+  "pynxtools-igor==0.1.1",
   "pynxtools-mpes==0.2.8",
   "pynxtools-raman==0.1.3",
   "pynxtools-spm==0.2.5",
   "pynxtools-xps==0.6.2",
   "pynxtools-xrd==0.0.8",
   "nomad-camels-plugin @ git+https://github.com/FAIRmat-NFDI/nomad-camels-plugin.git@main",
-  "nomad-north-jupyter>=0.2.5",
-  "nomad-north-voila>=0.1.14",
-  "nomad-north-apmtools>=0.1.2",
-  "nomad-north-fiji>=0.1.2",
-  "nomad-north-nionswift>=0.1.2",
-  "nomad-north-vesta>=0.1.2"
+  "nomad-north-jupyter==0.2.5",
+  "nomad-north-voila==0.1.14",
+  "nomad-north-apmtools==0.1.2",
+  "nomad-north-emtools==0.1.0",
+  "nomad-north-fiji==0.1.2",
+  "nomad-north-nionswift==0.1.2",
+  "nomad-north-vesta==0.1.2"
 ] 
 
 jupyter = ["jupyter-events"]
