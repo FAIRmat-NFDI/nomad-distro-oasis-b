@@ -36,7 +36,7 @@ plugins =[
   "perovskite-solar-cell-database @ git+https://github.com/FAIRmat-NFDI/nomad-perovskite-solar-cells-database.git@v0.1.1",
   "pynxtools @ git+https://github.com/FAIRmat-NFDI/pynxtools.git@master",
   "pynxtools-camels @ git+https://github.com/FAIRmat-NFDI/pynxtools-camels.git",
-  "pynxtools-apm==0.5.1",
+  "pynxtools-apm==0.5.2",
   "pynxtools-ellips==0.1.2",
   "pynxtools-em==0.4.5",
   "pynxtools-igor==0.1.6",
