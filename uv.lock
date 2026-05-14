@@ -3137,7 +3137,7 @@ requires-dist = [
     { name = "pynxtools", marker = "extra == 'plugins'", git = "https://github.com/FAIRmat-NFDI/pynxtools.git?rev=master" },
     { name = "pynxtools-apm", marker = "extra == 'plugins'", specifier = "==0.5.1" },
     { name = "pynxtools-camels", marker = "extra == 'plugins'", git = "https://github.com/FAIRmat-NFDI/pynxtools-camels.git" },
-    { name = "pynxtools-ellips", marker = "extra == 'plugins'", specifier = "==0.1.2" },
+    { name = "pynxtools-ellips", marker = "extra == 'plugins'", specifier = "==0.1.3" },
     { name = "pynxtools-em", marker = "extra == 'plugins'", specifier = "==0.4.5" },
     { name = "pynxtools-igor", marker = "extra == 'plugins'", specifier = "==0.1.6" },
     { name = "pynxtools-mpes", marker = "extra == 'plugins'", specifier = "==0.2.8" },
@@ -4553,14 +4553,14 @@ dependencies = [
 
 [[package]]
 name = "pynxtools-ellips"
-version = "0.1.2"
+version = "0.1.3"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/8647/packages/pypi/simple" }
 dependencies = [
     { name = "pynxtools" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/d8/4f/e7c9dd1d59985a0b5f2da85cf19b72c1428fdbf1a8dc774d05c59a9fc216/pynxtools_ellips-0.1.2.tar.gz", hash = "sha256:e81915a1e9081ceed57f104404742f3da6ad0815934664607cbb740d6c6512a5", size = 131537, upload-time = "2026-03-22T17:07:56.951Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/20/3b/1d80c0fb65d4a75bf1f9c671b341c81094c785831f678d8661b0bad285d9/pynxtools_ellips-0.1.3.tar.gz", hash = "sha256:94ecbb437fe4b36babe075a501ec4e3781ddfd13f541092530a275e32baf659e", size = 131543, upload-time = "2026-04-09T07:31:46.585Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/dd/32/a64c663afd4f3cfb039bb909aeac2fcda5c1d391f34b8a80bb2141a9b8c4/pynxtools_ellips-0.1.2-py3-none-any.whl", hash = "sha256:b68f5ba0bd5c48f2879a24347caac4b1c5dfad61a7ffaf0d1b1f076b166ff93b", size = 139877, upload-time = "2026-03-22T17:07:55.5Z" },
+    { url = "https://files.pythonhosted.org/packages/8c/3b/22186d4ea5e062bc4c7415675961d490dcb58ee439892c9310c3bae3173b/pynxtools_ellips-0.1.3-py3-none-any.whl", hash = "sha256:80b9e6170444f6c85e69fc3e9ef0d41725c702198f098cf21b60bf171ba7f541", size = 139877, upload-time = "2026-04-09T07:31:44.957Z" },
 ]
 
 [[package]]
